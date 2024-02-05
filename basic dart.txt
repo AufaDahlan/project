@@ -1,7 +1,8 @@
 DART TIPE DATA
 
 1. String
-merupakan tipe data berupa tulisan, seperti huruf, angka, tanda baca dan lain-lain. Contohnya:
+merupakan tipe data berupa tulisan, seperti huruf, angka, tanda baca dan lain-lain. 
+Contohnya:
 void main() {
   String nama = "Muhammad Farid";
   String nomor_hp = "082105031211";
@@ -12,6 +13,17 @@ void main() {
 Hasilnya:
 Nama: Muhammad Farid
 Nomor Hp: 082105031211
+
+void main() {
+  String nama = "Aufa Dahlan";
+  String nim = "200705082";
+  print("Nama: " + nama);
+  print("NIM : " + nim);
+}
+
+Hasilnya:
+Nama: Aufa Dahlan
+NIM : 200705082
 
 2. Integer
 merupakan tipe data yang merepresentasikan angka (bukan decimal). Contohnya:
@@ -36,6 +48,19 @@ void main() {
 
 Hasilnya:
 9.9
+
+void main() {
+  num nilai1 = 76;
+  num nilai2 = 69.4;
+  num nilai3 = 6;
+  num nilai4 = 360;
+  num nilai5 = 6;
+  num total = nilai1 + nilai2 * nilai3 - nilai4 / nilai5 ;
+  print(total);
+}
+
+Hasilnya:
+432.40000000000003
 
 4. Double
 merupakan tipe data yang merepresentasikan angka desimal. Contohnya:
