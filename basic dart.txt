@@ -1,1 +1,138 @@
+DART TIPE DATA
+
+1. String
+merupakan tipe data berupa tulisan, seperti huruf, angka, tanda baca dan lain-lain. Contohnya:
+void main() {
+  String nama = "Muhammad Farid";
+  String nomor_hp = "082105031211";
+  print("Nama: " + nama);
+  print("Nomor Hp: " + nomor_hp);
+}
+
+Hasilnya:
+Nama: Muhammad Farid
+Nomor Hp: 082105031211
+
+2. Integer
+merupakan tipe data yang merepresentasikan angka (bukan decimal). Contohnya:
+void main() {
+  int jumlah_1 = 50;
+  int jumlah_2 = 30;
+  int total = jumlah_1 + jumlah_2;
+  print(total);
+}
+
+Hasilnya:
+80
+
+3. Num
+merupakan tipe data yang berisi integer dan floating poin (bilangan berkoma). Contohnya:
+void main() {
+  num jumlah_1 = 3.9;
+  num jumlah_2 = 6;
+  num total = jumlah_1 + jumlah_2;
+  print(total);
+}
+
+Hasilnya:
+9.9
+
+4. Double
+merupakan tipe data yang merepresentasikan angka desimal. Contohnya:
+void main() {
+  double angka_1 = 3.9;
+  double angka_2 = 6.1;
+  double hasil = angka_1 + angka_2; 
+  print(hasil);
+}
+
+Hasilnya:
+10
+
+5. Dynamic
+merupakan tipe data yang outputnya bisa berubah-ubah (berupa string, int,num, double, dan lainnya). Contohnya:
+void main() {
+  dynamic anak_ke = 3;
+  anak_ke = "Satu";
+  print(anak_ke);
+}
+
+Hasilnya:
+Satu
+
+6. List
+merupakan tipe data yang dapat menampung banyak data dalam satu objek dan memiliki kunci untuk mengambil data secara spesifik. Contohnya:
+void main() {
+  List data = ["Farid","Aufa", 1, 2, 0.1, 0.2];
+  print(data);
+}
+
+Hasilnya:
+[Farid, Aufa, 1, 2, 0.1, 0.2]
+
+Jika ingin mengambil data secara spesifik, contohnya:
+void main() {
+  List data = ["Farid","Aufa", 1, 2, 0.1, 0.2];
+  print(data[3]);
+}
+
+Hasilnya:
+[2]
+
+7. Map
+merupakan tipe data yang dapat menyimpan data dengan format kunci dan nilai. Contohnya:
+void main() {
+  Map<String, dynamic> biodata = {
+    "nama": "Muhammad Farid",
+    "usia": 22,
+    "nilai ujian": 99.9,
+  };
+  
+  print(biodata);
+}
+
+Hasilnya:
+{nama: Muhammad Farid, usia: 22, nilai ujian: 99.9}
+
+Jika ingin mengambil salah satu nilai, contohnya:
+void main() {
+  Map<String, dynamic> biodata = {
+    "nama": "Muhammad Farid",
+    "usia": 22,
+    "nilai ujian": 99.9,
+  };
+
+  print(biodata["nilai ujian"]);
+}
+
+Hasilnya:
+99.9
+
+8. Boolean
+merupakan tipe data yang hanya bisa menyimpan data dengan kondisi benar dan salah (true and false). Contohnya:
+void main() {
+  bool data;
+  data = 100 > 50;
+  print(data);
+}
+
+Hasilnya:
+True
+
+Sebaliknya
+void main() {
+  bool data;
+  data = 100 <50;
+  print(data);
+}
+
+Hasilnya:
+false
+
+
+
+
+
+
+
 
