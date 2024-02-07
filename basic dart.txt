@@ -85,8 +85,31 @@ void main() {
 Hasilnya:
 Satu
 
-6. List
-merupakan tipe data yang dapat menampung banyak data dalam satu objek dan memiliki kunci untuk mengambil data secara spesifik. Contohnya:
+6. Boolean
+merupakan tipe data yang hanya bisa menyimpan data dengan kondisi benar dan salah (true and false). Contohnya:
+void main() {
+  bool data;
+  data = 100 > 50;
+  print(data);
+}
+
+Hasilnya:
+True
+
+Sebaliknya
+void main() {
+  bool data;
+  data = 100 <50;
+  print(data);
+}
+
+Hasilnya:
+false
+
+COLLECTIONS DART
+
+1. List
+merupakan koleksi yang dapat menampung banyak data dalam satu objek dan memiliki kunci untuk mengambil data secara spesifik. Contohnya:
 void main() {
   List data = ["Farid","Aufa", 1, 2, 0.1, 0.2];
   print(data);
@@ -104,8 +127,8 @@ void main() {
 Hasilnya:
 [2]
 
-7. Map
-merupakan tipe data yang dapat menyimpan data dengan format kunci dan nilai. Contohnya:
+2. Map
+merupakan koleksi yang dapat menyimpan data dengan format kunci dan nilai. Contohnya:
 void main() {
   Map<String, dynamic> biodata = {
     "nama": "Muhammad Farid",
@@ -132,29 +155,6 @@ void main() {
 
 Hasilnya:
 99.9
-
-8. Boolean
-merupakan tipe data yang hanya bisa menyimpan data dengan kondisi benar dan salah (true and false). Contohnya:
-void main() {
-  bool data;
-  data = 100 > 50;
-  print(data);
-}
-
-Hasilnya:
-True
-
-Sebaliknya
-void main() {
-  bool data;
-  data = 100 <50;
-  print(data);
-}
-
-Hasilnya:
-false
-
-
 
 
 
