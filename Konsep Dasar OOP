@@ -1,1 +1,20 @@
+Dengan OOP kita dapat mebuat program menjadi modular dan code yang sudah dibuat bisa digunakan kembali/lagi tanpa perlu menulis kembali codenya. Ada beberapa konsep dasar OOP, yaitu:
+
+1. Class
+Merupakan blueprint atau cetakan untuk membuat object dapat menurunkan sifat dan properti dari class tersebut.
+
+2. Properti
+Merupakan atribut-atribut yang dimiliki oleh sebuah objek.
+
+3. Object
+Merupakan instance (wujud nyata) dari sebuah class.
+
+4. Constructor
+Merupakan funsi khusus dari class yang bertugas untuk menginisialisasi nilai awal  dari properti yang ada didalam class tersebut. Constructor dipanggil ketika kita membuat sebuah objek (wujud nyata dari sebuah class). Contructor selalu dipakai di dalam flutter. Meskipun constructor itu tidak ditulis, namun constructor itu sudah otomatis ada. Hanya saja secara default constructor tidak dikenali/diidentifikasi.
+
+5. Method 
+Merupakan sebuah object yang bisa ditugaskan untuk melakukan sesuatu, atau dengan kata lain method merupakan hal-hal yang dapat dilakukan oleh sebuah object. Berbeda dengan properti, method merupakan behavior (cara kerja/kebiasaan) bagaimana dia dibentuk mengikuti pola kerja object tersebut.
+
+6. Inheritance
+Extends merupakan salah satu contoh inheritance dari OOP, inheritance sendiri merupakan penurunan atau pewarisan sifat dari child induk ke child anaknya.
 
